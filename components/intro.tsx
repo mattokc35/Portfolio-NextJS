@@ -33,7 +33,7 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-      <motion.p
+      <motion.h1
         className="mb-10 mt-4 px-4 text-2xl font-small !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
@@ -44,7 +44,7 @@ export default function Intro() {
         <span>{`My current focus is primarily on front-end development (`}</span>
         <span className="font-bold">React</span>
         <span>{`, Vue, Next), but I am also open to backend and full-stack opportunities.`}</span>
-      </motion.p>
+      </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
         initial={{ opacity: 0, y: 100 }}
