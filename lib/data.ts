@@ -2,6 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
+import sapphireImg from "@/public/sapphirebythesea.png";
+import airbnbImg from "@/public/airbnblogo.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -49,10 +51,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Direct Booking Site for Beach House Rental",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I'm currently working on a Full-Stack direct-booking website for a short-term rental beach house, Sapphire By The Sea in Crystal Beach, TX. The site uses identity and payment verification systems to allow guests to make secure booking transactions.",
+    tags: [
+      "React",
+      "Express.js",
+      "Bootstrap",
+      "Stripe.js",
+      "Netlify",
+      "Render",
+    ],
+    imageUrl: sapphireImg,
+  },
+  {
+    title: "AirbnbScrapeAndSearcher",
+    description:
+      "I wrote a Python script that runs an Airbnb search and returns what page your listing lands on, as well as data about your listing and all other listings found in the search, and writes this data to both a .csv and .txt file",
+    tags: ["Python", "BeautifulSoup", "Scrapy"],
+    imageUrl: airbnbImg,
   },
 ] as const;
 
