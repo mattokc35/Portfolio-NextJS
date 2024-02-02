@@ -14,7 +14,7 @@
     "@types/react-dom": "18.2.18",
     "autoprefixer": "10.4.17",
     "clsx": "^2.1.0",
-    "context": "^3.0.24",
+    "context": "^3.0.25",
     "eslint": "8.56.0",
     "eslint-config-next": "14.1.0",
     "framer-motion": "^10.18.0",

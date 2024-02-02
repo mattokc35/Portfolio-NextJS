@@ -2,7 +2,6 @@
 
 import React, { useState, createContext } from "react";
 import { links } from "@/lib/data";
-import { ActiveSectionContextProvider } from "@/context/active-section-context";
 type SectionName = (typeof links)[number]["name"];
 type ActiveSectionContextProviderProps = {
   children: React.ReactNode;
