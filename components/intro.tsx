@@ -10,7 +10,10 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-80">
+    <section
+      className="mb-28 max-w-[50rem] text-center sm:mb-80 scroll-mt-[100rem]"
+      id="home"
+    >
       <div className="flex items-center justify-center">
         <div className="sm:mt-4 mt-8">
           <motion.div
@@ -34,7 +37,7 @@ export default function Intro() {
         </div>
       </div>
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-small !leading-[1.5] sm:text-3xl"
+        className="mb-10 mt-4 px-4 text-2xl text-gray font-small !leading-[1.5] sm:text-3xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
