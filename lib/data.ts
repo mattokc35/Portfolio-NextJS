@@ -117,12 +117,9 @@ export const skillsData = [
   "Front-End Development",
   "Terraform",
   "Machine Learning",
-  "Linux Terminal",
   "Tensorflow",
-  "Object Detection",
   "Keras",
   "Jupyter Notebook",
   "Node",
-  "Full-Stack Development",
   "Convolutional Neural Networks",
 ] as const;
