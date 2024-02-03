@@ -1,11 +1,7 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import sapphireImg from "@/public/sapphirebythesea.png";
 import airbnbImg from "@/public/airbnblogo.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
   {
@@ -73,4 +69,29 @@ export const projectsData = [
   },
 ] as const;
 
-export const skillsData = ["HTML", "CSS", "JavaScript"] as const;
+export const skillsData = [
+  "React",
+  "Redux",
+  "Javascript",
+  "HTML",
+  "CSS",
+  "Git/Github",
+  "Perforce",
+  "Vue",
+  "Python",
+  "Next",
+  "AWS",
+  "Object-Oriented Programming",
+  "Functional Programming",
+  "Front-End Development",
+  "Terraform",
+  "Machine Learning",
+  "Linux Terminal",
+  "Tensorflow",
+  "Object Detection",
+  "Keras",
+  "Jupyter Notebook",
+  "Node",
+  "Full-Stack Development",
+  "Convolutional Neural Networks",
+] as const;

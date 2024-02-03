@@ -14,8 +14,6 @@ export default function About() {
       setActiveSection("About");
     }
   }, [inView, timeOfLastClick]);
-
-  console.log(inView);
   return (
     <motion.section
       ref={ref}
