@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="!scroll-smooth">
       <body
-        className={`${inter.className} bg-slate-100 text-gray-950 relative h-[5000px]`}
+        className={`${inter.className} bg-slate-100 text-gray-950 relative h-[6000px]`}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#fbe2e3] via-[#dbd7fb] to-slate-100 animate-gradient -z-10"></div>
         <ActiveSectionContextProvider>

@@ -43,7 +43,7 @@ export const experiencesData = [
     description:
       "I currently work as a Frontend Developer for the Dataworks Visualization team at AspenTech",
     skillsUsed:
-      "Skills used: React, Bootstrap, Redux, Vue, Javascript, HTML/CSS, Java",
+      "Skills used: React, Bootstrap, Redux, Vue, Javascript, HTML/CSS, Java, Perforce",
     icon: React.createElement(CgWorkAlt),
     date: "July 2023 - present",
   },
@@ -95,7 +95,7 @@ export const projectsData = [
     title: "AirbnbScrapeAndSearcher",
     description:
       "I wrote a Python script that runs an Airbnb search and returns what page your listing lands on, as well as data about your listing and all other listings found in the search, and writes this data to both a .csv and .txt file",
-    tags: ["Python", "BeautifulSoup", "Scrapy"],
+    tags: ["Python", "BeautifulSoup", "Scrapy", "Github"],
     imageUrl: airbnbImg,
   },
 ] as const;
