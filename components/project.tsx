@@ -29,7 +29,7 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 w-[24rem] sm:max-w-[42rem] border border-black/5 overflow-hidden rounded-lg sm:pr-8 relative h-[auto] sm:h-[23rem] hover:bg-gray-200 transition">
+      <section className="bg-gray-100 w-[24rem] sm:w-[50rem] border border-black/5 overflow-hidden rounded-lg sm:pr-8 relative h-[auto] sm:h-[20rem] hover:bg-gray-200 transition">
         <div className="py-4 pb-5 px-5 sm:pl-10 sm:pr-2 sm:pt-10 max-w-[11rem] sm:max-w-[50%] flex flex-col h-full ">
           <h3 className="text-sm sm:text-2xl font-semibold">{title}</h3>
           <p className="mt-2 leading-relaxed text-gray-700  text-xs sm:text-sm">
@@ -47,7 +47,7 @@ export default function Project({
           </ul>
         </div>
         <Image
-          className="absolute top-20 sm:top-14 -right-[11rem] sm:-right-40 h-[20rem] sm:h-[auto] w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-15 group-hover:-translate-y-6 group-hover:-rotate-4 transition"
+          className="absolute top-20 sm:top-14 -right-[11rem] sm:-right-40 h-[20rem] sm:h-[16rem] w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-9 group-hover:-translate-y-6 group-hover:-rotate-4 transition"
           src={imageUrl}
           alt={"Sapphire By The Sea"}
           quality={95}
