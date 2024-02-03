@@ -1,5 +1,6 @@
 import React from "react";
 import { LuGraduationCap } from "react-icons/lu";
+import { CgWorkAlt } from "react-icons/cg";
 import sapphireImg from "@/public/sapphirebythesea.png";
 import airbnbImg from "@/public/airbnblogo.png";
 
@@ -36,12 +37,41 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer at Aspen Technologies",
+    title: "Software Engineer at Aspen Technologies",
     location: "Houston, TX",
     description:
-      "I currently work as a Front-End Developer for the Dataworks Visualization team at AspenTech. Skills used: React, Bootstrap, Redux, Vue, Javascript, HTML/CSS, Java,",
+      "I currently work as a Frontend Developer for the Dataworks Visualization team at AspenTech",
+    skillsUsed:
+      "Skills used: React, Bootstrap, Redux, Vue, Javascript, HTML/CSS, Java",
+    icon: React.createElement(CgWorkAlt),
+    date: "July 2023 - present",
+  },
+  {
+    title: "Software Developer at IBM",
+    location: "College Station, TX",
+    description: "I worked as a developer for IBM's Cloud Computing division.",
+    skillsUsed:
+      "Skills used: Terraform, HCL, React, Javascript, HTML/CSS, IBM Cloud, Kubernetes, PaaS",
+    icon: React.createElement(CgWorkAlt),
+    date: "August 2022 - July 2023",
+  },
+  {
+    title: "Texas A&M University",
+    location: "Austin, TX",
+    description:
+      "I graduated from Texas A&M University with a B.S. in Computer Science.",
+    skillsUsed: "",
     icon: React.createElement(LuGraduationCap),
-    date: "201",
+    date: "August 2022",
+  },
+  {
+    title: "Software Developer Intern at IBM",
+    location: "Austin, TX (remote)",
+    description: "I worked as an intern in IBM's Space Tech division. ",
+    skillsUsed:
+      "Skills Used: Python, Machine Learning, Tensorflow, React, Node.js",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2021 - August 2021",
   },
 ] as const;
 

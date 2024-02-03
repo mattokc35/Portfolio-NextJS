@@ -17,3 +17,6 @@
 .animate-gradient {
   animation: gradientAnimation 10s linear infinite;
 }
+html {
+  --line-color: #e5e7eb;
+}
