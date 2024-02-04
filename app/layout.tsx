@@ -22,7 +22,7 @@ export default function RootLayout({
       >
         <div className="absolute inset-0 bg-gradient-to-r from-[#fbe2e3] via-[#dbd7fb] to-slate-100 animate-gradient -z-10"></div>
         <ActiveSectionContextProvider>
-          <Header />
+          {/*<Header />*/}
           {children}
         </ActiveSectionContextProvider>
       </body>

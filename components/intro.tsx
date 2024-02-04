@@ -20,7 +20,7 @@ export default function Intro() {
   }, [inView, timeOfLastClick]);
   return (
     <section
-      className="mb-28 max-w-[50rem] text-center sm:mb-80 scroll-mt-[100rem]"
+      className="mb-28 max-w-[50rem] text-center sm:mb-40 scroll-mt-[100rem]"
       id="home"
       ref={ref}
     >
