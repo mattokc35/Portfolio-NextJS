@@ -47,7 +47,7 @@ export default function Project({
           </ul>
         </div>
         <Image
-          className="absolute top-20 sm:top-14 -right-[11rem] sm:-right-40 h-[20rem] sm:h-[16rem] w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-9 group-hover:-translate-y-6 group-hover:-rotate-4 transition"
+          className="absolute top-20 sm:top-14 -right-[11rem] sm:-right-40 h-[20rem] sm:h-[16rem] w-[28.25rem] rounded-t-lg shadow-2xl group-hover:-translate-x-12 group-hover:-translate-y-6 transition"
           src={imageUrl}
           alt={"Sapphire By The Sea"}
           quality={95}
