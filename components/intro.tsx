@@ -52,11 +52,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I'm Matthew Chen</span>. I'm a software
-        developer with <span className="font-bold">1.5 years </span>of
+        developer with <span className="font-bold">~2 years </span>of
         experience.{" "}
         <span>{`My current focus is primarily on front-end development (`}</span>
-        <span className="font-bold">React</span>
-        <span>{`, Vue, Next), but I am also open to backend and full-stack opportunities.`}</span>
+        <span className="font-bold">React.js</span>
+        <span>{`, Vue.js, Next.js), but I am also open to backend and full-stack opportunities.`}</span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -75,7 +75,7 @@ export default function Intro() {
         */}
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-100 transition cursor-pointer border border-black/10"
-          href="/resume-new-format.pdf"
+          href="/resume-new-format-3.pdf"
           download={true}
         >
           Download Resume{" "}
