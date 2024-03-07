@@ -43,7 +43,7 @@ export const experiencesData = [
     description:
       "I currently work as a Frontend Developer for the Dataworks Visualization team at AspenTech",
     skillsUsed:
-      "Skills used: React, Bootstrap, Redux, Vue, TypeScript, Javascript, SQL, HTML/CSS, Java, Perforce, Nightwatch",
+      "Skills used: React.js, Bootstrap, Redux, Vue.js, TypeScript, Javascript, SQL, HTML/CSS, Java, Perforce, Nightwatch.js",
     icon: React.createElement(CgWorkAlt),
     date: "July 2023 - present",
   },
@@ -52,7 +52,7 @@ export const experiencesData = [
     location: "College Station, TX",
     description: "I worked as a developer for IBM's Cloud Computing division.",
     skillsUsed:
-      "Skills used: Terraform, React, Javascript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python",
+      "Skills used: Terraform, React.js, Javascript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python",
     icon: React.createElement(CgWorkAlt),
     date: "August 2022 - July 2023",
   },
@@ -70,7 +70,7 @@ export const experiencesData = [
     location: "Austin, TX (remote)",
     description: "I worked as an intern in IBM's Space Tech division. ",
     skillsUsed:
-      "Skills Used: Python, Machine Learning, Tensorflow, Deep Learning, React.js, Express.js, Node.js",
+      "Skills Used: Python, Machine Learning, Tensorflow, Deep Learning, React.js, Express.js, Node.js, SwaggerUI, Storybook.js, Docker, Kubernetes, MongoDB",
     icon: React.createElement(CgWorkAlt),
     date: "May 2021 - August 2021",
   },
@@ -127,7 +127,10 @@ export const skillsData = [
   "Python",
   "Stripe",
   "Next.js",
+  "Storybook.js",
+  "SwaggerUI API",
   "Kubernetes",
+  "Docker",
   "AWS",
   "Object-Oriented Programming",
   "Functional Programming",
@@ -140,4 +143,5 @@ export const skillsData = [
   "Convolutional Neural Networks",
   "Test-Driven Development",
   "SQL",
+  "MongoDB",
 ] as const;
