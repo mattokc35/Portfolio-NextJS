@@ -75,7 +75,7 @@ export default function Intro() {
         */}
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-100 transition cursor-pointer border border-black/10"
-          href="/resume-new-format-3.pdf"
+          href="/resume-new-format-4.pdf"
           download={true}
         >
           Download Resume{" "}
