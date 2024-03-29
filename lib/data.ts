@@ -85,6 +85,7 @@ export const projectsData = [
       "React.js",
       "Express.js",
       "Node.js",
+      "TypeScript",
       "Javascript",
       "HTML",
       "CSS",
