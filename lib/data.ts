@@ -108,6 +108,7 @@ export const projectsData = [
     tags: [
       "React",
       "TypeScript",
+      "Vite",
       "MongoDB",
       "Node.js",
       "Express.js",
