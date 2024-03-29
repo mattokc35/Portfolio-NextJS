@@ -91,8 +91,6 @@ export const projectsData = [
       "CSS",
       "Bootstrap",
       "Stripe",
-      "Netlify",
-      "Render",
     ],
     imageUrl: sapphireImg,
   },
@@ -102,6 +100,20 @@ export const projectsData = [
       "I wrote a Python script that runs an Airbnb search and returns what page your listing lands on, as well as data about your listing and all other listings found in the search, and writes this data to both a .csv and .txt file",
     tags: ["Python", "BeautifulSoup", "Scrapy", "Github"],
     imageUrl: airbnbImg,
+  },
+  {
+    title: "Help Desk Ticket System Project",
+    description:
+      "I created a practice full-stack IT Support Desk web app where users can submit tickets, and admins can respond to tickets/update ticket statuses.",
+    tags: [
+      "React",
+      "TypeScript",
+      "MongoDB",
+      "Node.js",
+      "Express.js",
+      "Styled Components",
+      "MVC",
+    ],
   },
 ] as const;
 
