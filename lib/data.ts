@@ -78,7 +78,7 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Direct Booking Site for Beach House Rental",
+    title: "Short-Term Rental Direct Booking Website",
     description:
       "I'm currently working on a Full-Stack direct-booking website for a short-term rental beach house, Sapphire By The Sea in Crystal Beach, TX. The site uses identity and payment verification systems to allow guests to make secure booking transactions.",
     tags: [
