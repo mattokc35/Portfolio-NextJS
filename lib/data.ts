@@ -115,6 +115,7 @@ export const projectsData = [
       "Styled Components",
       "MVC",
     ],
+    imageUrl: airbnbImg,
   },
 ] as const;
 
