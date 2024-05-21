@@ -39,31 +39,22 @@ export const links = [
 export const experiencesData = [
   {
     title: "Software Engineer at Aspen Technologies",
-    location: "Houston, TX",
+    location: "",
     description:
       "I currently work as a Frontend Developer for the Dataworks Visualization team at AspenTech",
     skillsUsed:
       "Skills used: React.js, Bootstrap, Redux, Vue.js, TypeScript, Javascript, SQL, HTML/CSS, Java, Perforce, Nightwatch.js",
     icon: React.createElement(CgWorkAlt),
-    date: "July 2023 - present",
+    date: "June 2023 - present",
   },
   {
     title: "Software Developer at IBM",
-    location: "College Station, TX",
+    location: "Austin, TX",
     description: "I worked as a developer for IBM's Cloud Computing division.",
     skillsUsed:
       "Skills used: Terraform, React.js, Javascript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python",
     icon: React.createElement(CgWorkAlt),
-    date: "August 2022 - July 2023",
-  },
-  {
-    title: "Texas A&M University",
-    location: "Austin, TX",
-    description:
-      "I graduated from Texas A&M University with a B.S. in Computer Science.",
-    skillsUsed: "",
-    icon: React.createElement(LuGraduationCap),
-    date: "August 2022",
+    date: "August 2022 - June 2023",
   },
   {
     title: "Software Developer Intern at IBM",
@@ -74,13 +65,22 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "May 2021 - August 2021",
   },
+  {
+    title: "Software Developer Intern at Texas A&M University",
+    location: "College Station, TX",
+    description:
+      "I worked as a Software Developer intern in the Parasol Computing Research Lab under Dr. Jeff Huang.",
+    skillsUsed: "C++, Github",
+    icon: React.createElement(CgWorkAlt),
+    date: "May 2019 - August 2019",
+  },
 ] as const;
 
 export const projectsData = [
   {
     title: "Short-Term Rental Direct Booking Website",
     description:
-      "I'm currently working on a Full-Stack direct-booking website for a short-term rental beach house, Sapphire By The Sea in Crystal Beach, TX. The site uses identity and payment verification systems to allow guests to make secure booking transactions.",
+      "I built a full-stack direct-booking website for a short-term rental beach house. The site uses identity and payment verification systems to allow guests to make secure booking transactions.",
     tags: [
       "React.js",
       "Express.js",
@@ -161,4 +161,5 @@ export const skillsData = [
   "Perforce",
   "SQL",
   "MongoDB",
+  "MVC",
 ] as const;

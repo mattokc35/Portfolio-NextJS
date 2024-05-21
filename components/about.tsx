@@ -26,10 +26,10 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="font-medium mb-8">
         After graduating with a B.S. in Computer Science from Texas A&M
-        University, I've been working in the tech industry as a Software
-        Engineer for the past ~2.5 years. During my career so far, I've had the
-        opportunity to work in Front-End Development, Full-Stack development,
-        Cloud Computing, Infrastructure as Code, and Machine Learning.
+        University, I've since been working in the tech industry as a Software
+        Engineer. During my career so far, I've had the opportunity to work in
+        Front-End Development, Full-Stack development, Cloud Computing,
+        Infrastructure as Code, and Machine Learning.
       </p>
       <p className="font-medium mb-8">
         {`Outside of work, I enjoy travelling to new places and exploring different cultures (food, architecture, music, etc.) as well as photography and playing the piano. I also enjoying going for walks, exercising, and watching/playing different sports.`}
