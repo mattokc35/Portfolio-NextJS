@@ -26,8 +26,8 @@ export default function About() {
       <SectionHeading>About Me</SectionHeading>
       <p className="font-medium mb-8">
         After graduating with a B.S. in Computer Science from Texas A&M
-        University in 2022, I've been working in the tech industry as a Software
-        Engineer for the past 2 years. During my career so far, I've had the
+        University, I've been working in the tech industry as a Software
+        Engineer for the past ~2.5 years. During my career so far, I've had the
         opportunity to work in Front-End Development, Full-Stack development,
         Cloud Computing, Infrastructure as Code, and Machine Learning.
       </p>
