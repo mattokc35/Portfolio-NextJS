@@ -1,6 +1,7 @@
 import React from "react";
-import { LuGraduationCap } from "react-icons/lu";
 import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
+import helpDeskImg from "@/public/helpdesk.webp";
 import sapphireImg from "@/public/sapphirebythesea.png";
 import airbnbImg from "@/public/airbnblogo.png";
 
@@ -25,15 +26,6 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  /*
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
-  {
-    name: "Hobbies",
-    hash: "#hobbies",
-  },*/
 ] as const;
 
 export const experiencesData = [
@@ -64,6 +56,16 @@ export const experiencesData = [
       "Skills Used: Python, Machine Learning, Tensorflow, Deep Learning, React.js, Express.js, Node.js, SwaggerUI, Storybook.js, Docker, Kubernetes, MongoDB",
     icon: React.createElement(CgWorkAlt),
     date: "May 2021 - August 2021",
+  },
+  {
+    title: "B.S. Computer Science from Texas A&M University",
+    location: "College Station, TX",
+    description:
+      "I graduated from Texas A&M University with a Bachelor's in Computer Science.",
+    skillsUsed:
+      "C++, Software Engineering, Data Structures and Algorithms, Discrete Math",
+    icon: React.createElement(LuGraduationCap),
+    date: "",
   },
   {
     title: "Software Developer Intern at Texas A&M University",
@@ -113,7 +115,7 @@ export const projectsData = [
       "Styled Components",
       "MVC",
     ],
-    imageUrl: airbnbImg,
+    imageUrl: helpDeskImg,
   },
 ] as const;
 
