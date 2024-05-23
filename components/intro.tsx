@@ -55,7 +55,7 @@ export default function Intro() {
         engineer with <span className="font-bold">~3 years </span>of experience.{" "}
         <span>{`My current focus is primarily on front-end engineering (`}</span>
         <span className="font-bold">React</span>
-        <span>{`, TypeScript, Next.js), but I am also open to backend and full-stack opportunities.`}</span>
+        <span>{`, TypeScript, Next.js), but I am also open to backend and full-stack opportunities. Please checkout my GitHub for the latest code I am working on!`}</span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
