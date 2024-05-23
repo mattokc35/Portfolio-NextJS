@@ -52,9 +52,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I'm Matthew Chen</span>. I'm a software
-        developer with <span className="font-bold">~3 years </span>of
-        experience.{" "}
-        <span>{`My current focus is primarily on front-end development (`}</span>
+        engineer with <span className="font-bold">~3 years </span>of experience.{" "}
+        <span>{`My current focus is primarily on front-end engineering (`}</span>
         <span className="font-bold">React</span>
         <span>{`, TypeScript, Next.js), but I am also open to backend and full-stack opportunities.`}</span>
       </motion.h1>
