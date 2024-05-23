@@ -33,7 +33,7 @@ export const experiencesData = [
     title: "Software Engineer at Aspen Technologies",
     location: "",
     description:
-      "I currently work as a Frontend Developer for the Dataworks Visualization team at AspenTech",
+      "I currently work as a Software Engineer for the Dataworks Visualization (Frontend) team at AspenTech",
     skillsUsed:
       "Skills used: React.js, Bootstrap, Redux, Vue.js, TypeScript, Javascript, SQL, HTML/CSS, Java, Perforce, Nightwatch.js",
     icon: React.createElement(CgWorkAlt),
@@ -42,16 +42,17 @@ export const experiencesData = [
   {
     title: "Software Developer at IBM",
     location: "Austin, TX",
-    description: "I worked as a developer for IBM's Cloud Computing division.",
+    description:
+      "I worked as a software developer for IBM's Cloud Engineering division.",
     skillsUsed:
-      "Skills used: Terraform, React.js, Javascript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python",
+      "Skills used: Terraform, React.js, Javascript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python, Docker",
     icon: React.createElement(CgWorkAlt),
     date: "August 2022 - June 2023",
   },
   {
     title: "Software Developer Intern at IBM",
     location: "Austin, TX (remote)",
-    description: "I worked as an intern in IBM's Space Tech division. ",
+    description: "I worked as an intern for IBM's Space Tech division. ",
     skillsUsed:
       "Skills Used: Python, Machine Learning, Tensorflow, Deep Learning, React.js, Express.js, Node.js, SwaggerUI, Storybook.js, Docker, Kubernetes, MongoDB",
     icon: React.createElement(CgWorkAlt),
@@ -72,7 +73,7 @@ export const experiencesData = [
     location: "College Station, TX",
     description:
       "I worked as a Software Developer intern in the Parasol Computing Research Lab under Dr. Jeff Huang.",
-    skillsUsed: "C++, Github",
+    skillsUsed: "C++, Github, Multithreaded Programming",
     icon: React.createElement(CgWorkAlt),
     date: "May 2019 - August 2019",
   },
