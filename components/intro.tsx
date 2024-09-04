@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -9,15 +9,22 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import { useInView } from "react-intersection-observer";
+import Modal from "./modal";
 
 export default function Intro() {
   const { ref, inView } = useInView({ threshold: 0.6 });
   const { setActiveSection, timeOfLastClick } = useActiveSectionContext();
+  const [isModalOpen, setModalOpen] = useState(false);
+
   useEffect(() => {
     if (inView && Date.now() - timeOfLastClick > 1000) {
       setActiveSection("Home");
     }
   }, [inView, timeOfLastClick]);
+
+  const openModal = () => setModalOpen(true);
+  const closeModal = () => setModalOpen(false);
+
   return (
     <section
       className="mb-28 max-w-[50rem] text-center sm:mb-40 scroll-mt-[100rem]"
@@ -36,12 +43,13 @@ export default function Intro() {
           >
             <Image
               src="/profilepic.jpg"
-              width="192"
-              height="192"
+              width="210"
+              height="210"
               quality="95"
               alt="Matthew Chen profile pic"
               priority={true}
-              className="h-36 w-36 rounded-full border-[0.35rem] object-cover border-white shadow-xl"
+              className="h-48 w-48 rounded-full border-[0.35rem] object-cover border-white shadow-xl cursor-pointer hover:scale-125 active:scale-105 transition"
+              onClick={openModal}
             />
           </motion.div>
         </div>
@@ -89,6 +97,13 @@ export default function Intro() {
       <div className="mt-8">
         <span className="italic"></span>
       </div>
+
+      {/* Modal for profile picture */}
+      <Modal
+        isOpen={isModalOpen}
+        onClose={closeModal}
+        imageUrl="/profilepic.jpg"
+      />
     </section>
   );
 }

@@ -20,7 +20,10 @@ export default function RootLayout({
       <body
         className={`${inter.className} bg-slate-100 text-gray-950 relative h-[6000px]`}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-[#fbe2e3] via-[#dbd7fb] to-slate-100 animate-gradient -z-10"></div>
+        {/* Enhanced background with gradient and texture */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#fbe2e3] via-[#dbd7fb] to-slate-100 animate-gradientMove -z-10 opacity-90 bg-fixed">
+          <div className="absolute inset-0 bg-[url('/path/to/texture.svg')] opacity-10 mix-blend-overlay pointer-events-none"></div>
+        </div>
         <ActiveSectionContextProvider>
           <Header />
           {children}
