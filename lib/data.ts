@@ -51,7 +51,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer Intern at IBM",
-    location: "Austin, TX (remote)",
+    location: "Austin, TX",
     description: "I worked as an intern for IBM's Space Tech division. ",
     skillsUsed:
       "Skills Used: Python, Machine Learning, Tensorflow, Deep Learning, React.js, Express.js, Node.js, SwaggerUI, Storybook.js, Docker, Kubernetes, MongoDB",
