@@ -45,7 +45,7 @@ export const experiencesData = [
     description:
       "I worked as a software developer for IBM's Cloud Engineering division.",
     skillsUsed:
-      "Skills used: Terraform, React.js, Javascript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python, Docker",
+      "Skills used: Terraform, React.js, Next.js, JavaScript, TypeScript, Mocha, Git, Carbon, HTML/CSS, IBM Cloud, Kubernetes, PaaS, Test-Driven Development, Python, Docker",
     icon: React.createElement(CgWorkAlt),
     date: "August 2022 - June 2023",
   },
@@ -86,6 +86,7 @@ export const projectsData = [
       "I built a full-stack direct-booking website for a short-term rental beach house. The site uses identity and payment verification systems to allow guests to make secure booking transactions.",
     tags: [
       "React.js",
+      "Next.js",
       "Express.js",
       "Node.js",
       "TypeScript",
@@ -127,6 +128,7 @@ export const skillsData = [
   "HTML5",
   "CSS3",
   "Git",
+  "Next App Router",
   "Node.js",
   "Bootstrap",
   "MaterialUI",
