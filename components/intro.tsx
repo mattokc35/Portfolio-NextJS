@@ -3,8 +3,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useActiveSectionContext } from "@/context/active-section-context";
@@ -61,9 +60,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I'm Matthew Chen</span>. I'm a software
         engineer with <span className="font-bold">~2.5 years </span>of experience.{" "}
-        <span>{`My current focus is primarily on front-end engineering (`}</span>
+        <span>{`My current focus is primarily on full stack development (`}</span>
         <span className="font-bold">React</span>
-        <span>{`, TypeScript, Next.js), but I am also open to backend and full-stack opportunities. Feel free to check out my GitHub, LinkedIn, or download my resume below!`}</span>
+        <span>{`, TypeScript, Node, and AWS). Feel free to check out my GitHub, LinkedIn, or download my resume below!`}</span>
       </motion.h1>
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"

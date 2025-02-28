@@ -30,18 +30,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Engineer at Aspen Technologies",
-    location: "",
+    title: "Full Stack Developer at Dev Technology Group",
+    location: "United States (remote)",
     description:
-      "I currently work as a Software Engineer for the Dataworks Visualization (Frontend) team at AspenTech",
+      "I currently work as a Full Stack Developer for the Dev Technology Group, a defense contractor based in Reston, VA.",
+    skillsUsed:
+      "Skills used: React.js, Microservices, Microfrontends, TypeScript, AWS Lambda, DynamoDB, Node.js, Javascript, Jest, GitHub, Jenkins, AWS",
+    icon: React.createElement(CgWorkAlt),
+    date: "February 2025 - present",
+  },
+  {
+    title: "Software Engineer at Aspen Technologies",
+    location: "Houston, TX (hybrid)",
+    description:
+      "I worked as a Software Engineer for the Dataworks Visualization (Frontend) team at AspenTech",
     skillsUsed:
       "Skills used: React.js, Bootstrap, Redux, Vue.js, TypeScript, Javascript, SQL, HTML/CSS, Java, Perforce, Nightwatch.js",
     icon: React.createElement(CgWorkAlt),
-    date: "June 2023 - present",
+    date: "June 2023 - February 2025",
   },
   {
     title: "Software Developer at IBM",
-    location: "Austin, TX",
+    location: "Austin, TX (hybrid)",
     description:
       "I worked as a software developer for IBM's Cloud Engineering division.",
     skillsUsed:
@@ -51,7 +61,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer Intern at IBM",
-    location: "Austin, TX",
+    location: "Austin, TX (remote)",
     description: "I worked as an intern for IBM's Space Tech division. ",
     skillsUsed:
       "Skills Used: Python, Machine Learning, Tensorflow, Deep Learning, React.js, Express.js, Node.js, SwaggerUI, Storybook.js, Docker, Kubernetes, MongoDB",
@@ -70,7 +80,7 @@ export const experiencesData = [
   },
   {
     title: "Software Developer Intern at Texas A&M University",
-    location: "College Station, TX",
+    location: "College Station, TX (on-site)",
     description:
       "I worked as a Software Developer intern in the Parasol Computing Research Lab under Dr. Jeff Huang.",
     skillsUsed: "C++, Github, Multithreaded Programming",
@@ -143,8 +153,6 @@ export const skillsData = [
   "TypeScript",
   "HTTP",
   "Express.js",
-  "Flask",
-  "Django",
   "Python",
   "Stripe",
   "Next.js",
@@ -156,15 +164,12 @@ export const skillsData = [
   "Object-Oriented Programming",
   "Functional Programming",
   "Front-End Development",
-  "Terraform",
   "Machine Learning",
   "Tensorflow",
   "Google Cloud Platform",
   "Keras",
-  "Convolutional Neural Networks",
   "Test-Driven Development",
   "Perforce",
   "SQL",
   "MongoDB",
-  "MVC",
 ] as const;
